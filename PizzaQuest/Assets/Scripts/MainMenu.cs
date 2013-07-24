@@ -14,8 +14,8 @@ public class MainMenu : MonoBehaviour {
 			Application.LoadLevel("Level1");
 		}
 		
-		if(GUI.Button(new Rect(Screen.width / 3 + 75, Screen.height / 2 - 125, 200, 50), "Options", style)) {
-			Debug.Log("Add Options");
+		if(GUI.Button(new Rect(Screen.width / 3 + 75, Screen.height / 2 - 125, 200, 50), "Controls", style)) {
+			Application.LoadLevel("options thing");
 		}
 		
 		if(GUI.Button(new Rect(Screen.width / 3 + 60, Screen.height / 2 - 75, 200, 50), "Exit Game", style)) {
