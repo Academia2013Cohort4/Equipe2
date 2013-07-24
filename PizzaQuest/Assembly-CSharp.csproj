@@ -44,6 +44,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BackToHome.cs" />
      <Compile Include="Assets\HealthPickup.cs" />
      <Compile Include="Assets\Scripts\Character Classes\Attribute.cs" />
      <Compile Include="Assets\Scripts\Character Classes\BaseCharacter.cs" />
