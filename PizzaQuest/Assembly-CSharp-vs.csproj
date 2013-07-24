@@ -44,7 +44,27 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
      <Compile Include="Assets\Scripts\MainMenu.cs" />
+=======
+     <Compile Include="Assets\HealthPickup.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\Attribute.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\BaseCharacter.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\BaseStat.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\CharacterGenerator.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\ModifiedStat.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\PlayerCharacter.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\Skill.cs" />
+     <Compile Include="Assets\Scripts\Character Classes\Vital.cs" />
+     <Compile Include="Assets\Scripts\EnemyAI.cs" />
+     <Compile Include="Assets\Scripts\EnemyAttack.cs" />
+     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
+     <Compile Include="Assets\Scripts\GameMaster.cs" />
+     <Compile Include="Assets\Scripts\GameSettings.cs" />
+     <Compile Include="Assets\Scripts\PlayerAttack.cs" />
+     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
+     <Compile Include="Assets\Scripts\Targetting.cs" />
+>>>>>>> fad241463df2445dfd242a372a2892abebc0f612
      <None Include="Assets\Prefabs\delete.txt" />
      <None Include="Assets\Animations\delete.txt" />
      <None Include="Assets\Scenes\delete.txt" />
