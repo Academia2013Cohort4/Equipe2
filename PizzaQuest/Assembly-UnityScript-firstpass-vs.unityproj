@@ -50,6 +50,7 @@
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" />
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" />
      <None Include="Assets\Prefabs\delete.txt" />
+     <None Include="Assets\Animations\delete.txt" />
      <None Include="Assets\Scenes\delete.txt" />
      <None Include="Assets\Scripts\delete.txt" />
      <None Include="Assets\Audio\delete.txt" />

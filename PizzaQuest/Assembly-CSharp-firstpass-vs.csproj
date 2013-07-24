@@ -46,6 +46,7 @@
   <ItemGroup>
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <None Include="Assets\Prefabs\delete.txt" />
+     <None Include="Assets\Animations\delete.txt" />
      <None Include="Assets\Scenes\delete.txt" />
      <None Include="Assets\Scripts\delete.txt" />
      <None Include="Assets\Audio\delete.txt" />

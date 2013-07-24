@@ -35,5 +35,10 @@ public class EnemyHealth : MonoBehaviour {
 			maxHealth = 1;
 		
 		healthBarLength = (Screen.width / 2) * (curHealth / (float)maxHealth);
+		
+		if(curHealth <= 0) {
+			Destroy(gameObject);
+			//gameObject.active = false;
+		}
 	}
 }

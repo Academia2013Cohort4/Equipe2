@@ -35,5 +35,9 @@ public class PlayerHealth : MonoBehaviour {
 			maxHealth = 1;
 		
 		healthBarLength = (Screen.width / 2) * (curHealth / (float)maxHealth);
+		
+		if(curHealth <= 0) {
+			Application.LoadLevel("DeathScreenScene");
+		}	
 	}
 }
